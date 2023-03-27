@@ -4,7 +4,6 @@ import {AppBar, Box, IconButton, Toolbar} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { selectToggler, toggleDrawer } from '../features/toggleSlice.js';
 import { useSelector, useDispatch } from "react-redux";
-
 import { Link } from 'react-router-dom';
 
 const handleClick = (isShown, dispatch) => {
