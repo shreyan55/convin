@@ -4,29 +4,19 @@ const initialState = {
     buckets: [
         {
             id: nanoid(),
-            name: "Environment",
+            name: "Environment Video",
             cards: [
                 {
                     id: nanoid(),
-                    title: "card2",
+                    title: "card10",
                     link: "https://www.youtube.com/embed/QQYgCxu988s"
                 }
             ]
         },
+       
         {
             id: nanoid(),
-            name: "School",
-            cards: [
-                {
-                    id: nanoid(),
-                    title: "card2",
-                    link: "https://www.youtube.com/embed/_PsLRgEYf9E"
-                }
-            ]
-        },
-        {
-            id: nanoid(),
-            name: "Education",
+            name: "Education Video",
             cards: [
                 {
                     id: nanoid(),
@@ -35,7 +25,7 @@ const initialState = {
                 },
                 {
                     id: nanoid(),
-                    title: "card10",
+                    title: "card2",
                     link: "https://www.youtube.com/embed/UVL6hzTvzvE"
                 }
 
@@ -52,7 +42,7 @@ const initialState = {
                 },
                 {
                     id: nanoid(),
-                    title: "Song3",
+                    title: "Song2",
                     link: "https://www.youtube.com/embed/ElZfdU54Cp8"
                 },
             ]
